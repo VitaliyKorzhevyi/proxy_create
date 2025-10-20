@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proxy_create/static/css/main.489ea150.css",
+    "main.js": "/proxy_create/static/js/main.09cb9822.js",
+    "index.html": "/proxy_create/index.html",
+    "main.489ea150.css.map": "/proxy_create/static/css/main.489ea150.css.map",
+    "main.09cb9822.js.map": "/proxy_create/static/js/main.09cb9822.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.489ea150.css",
+    "static/js/main.09cb9822.js"
+  ]
+}
