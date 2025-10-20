@@ -24,7 +24,7 @@ export default function ProxyGenerator() {
 
     const list = [];
     for (let i = start; i <= end; i++) {
-      list.push(template.replace(regex, `$1test${i}`));
+      list.push(template.replace(regex, `$1${i}`));
     }
 
     const output = list.join("\n");
