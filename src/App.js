@@ -15,7 +15,7 @@ export default function ProxyGenerator() {
   }, [theme]);
 
   const generateProxies = () => {
-    const regex = /(sessionid-)([^-\s]+)/i;
+    const regex = /(sessionid-)(\d+)/i;
 
     if (!regex.test(template)) {
       toast.error('❌ В шаблоне не найден "sessionid-..."');
